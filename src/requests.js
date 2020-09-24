@@ -1,8 +1,4 @@
-import dotenv from "dotenv"
-
-dotenv.config()
-
-const API_KEY = process.env.TMDB_API_KEY
+const API_KEY = "Put your TMDB API KEY HERE"
 
 const requests = {
   fetchTrending: `/trending/all/week?api_key=${API_KEY}&language=en-US`,
